@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    flex-direction: column;
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+.title1{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.circle{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: hsla(256, 60%, 46%, 1);
+    border-radius: 150px;
+}
+
+.text{
+    font-size: 15px;
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.box2{
+    flex-direction: column;
+}
+
+.title3{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.score1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 15%, 67%);
+}
+
+.score2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(39, 15%, 56%);
+}
+
+.score3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(166, 15%, 37%);
+}
+
+.score4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(234, 15%, 45%);
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 65px;
+    height: 25px;
+    border: none;
+    text-decoration: none;
+    background-color: hsla(256, 52%, 46%, 1);
+}
+
+.button{
+    font-size: 10px;
+    color: #FFF;
+}
